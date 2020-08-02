@@ -72,7 +72,7 @@ theme = "loveit"
   #  App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "Pedro Pozzobon"
+    title = "Blog pessoal de Pedro Pozzobon"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
@@ -173,9 +173,9 @@ theme = "loveit"
       # URL of avatar shown in home page
       avatarURL = "/images/avatar.png"
       #  title shown in home page (HTML format is supported)
-      title = "Título"
+      title = "Pedro Pozzobon"
       # subtitle shown in home page
-      subtitle = "Subtítulo"
+      subtitle = ""
       # whether to use typeit animation for subtitle
       typeit = false
       # whether to show social links
@@ -246,7 +246,7 @@ theme = "loveit"
       # whether to show the copy button of the code block
       copy = true
       # the maximum number of lines of displayed code by default
-      maxShownLines = 10
+      maxShownLines = 200
     #  Mapbox GL JS config
     # [params.page.mapbox]
     #   # access token of Mapbox GL JS
