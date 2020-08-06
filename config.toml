@@ -342,10 +342,10 @@ theme = "loveit"
 
   #  Analytics config
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "UA-174588854-1"
       # whether to anonymize IP
       anonymizeIP = true
 
