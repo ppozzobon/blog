@@ -24,11 +24,11 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.GITHUB_TOKEN  }}
+          github_token: ${{ secrets.GITHUB_TOKEN  }}
           external_repository: ppozzobon/ppozzobon.github.io
           publish_dir: ./public
           #   keep_files: true
-          user_name: <Pedro Pozzobon >
-          user_email: <pedro@aeroinovacoes.com>
+          user_name: github-actions[bot]
+          user_email: github-actions[bot]@users.noreply.github.com
           publish_branch: master
           cname: pedropozzobon.com
