@@ -1,8 +1,6 @@
 ---
 title: "Transição do Matlab para Python"
-date: 2021-03-07T20:26:45-03:00
-draft: false
-tags: ["python"]
+description: "Transição do Matlab para Python"
 ---
 
 Minha entrada no mundo da programação se iniciou com o Matlab durante a faculdade. O mesmo acontece com boa parte dos engenheiros mecânicos, eletricistas ou civis (basicamente qualquer engenharia que não as de software e computação).

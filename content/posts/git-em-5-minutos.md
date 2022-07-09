@@ -1,8 +1,6 @@
 ---
-title: "Git em 5 Minutos"
+title: Git em 5 minutos
 date: 2021-04-10T14:44:52-03:00
-draft: false
-tags: ["git"]
 ---
 
 Alguns dias atrás fiz uma apresentação sobre git para alguns colegas de trabalho. O público era de engenheiros com alguma experiência em programação aplicada em engenharia, porém nunca tiveram contato com softwares de controle de versão.
@@ -25,7 +23,7 @@ Adaptei a apresentação para um post. Espero que possa ser útil para você tam
 - as mudanças (_commits_) só vão para o repositório remoto depois do comando `pull`
     - caso as mudanças do `pull` causem conflito elas não serão aplicadas (até que se resolvam todos os conflitos)
 
-{{< figure src="/git-flow.png" caption="Fluxo das informações com o git. Crédito: <a href='https://www.w3docs.com/'>w3docs</a>" >}}
+![Fluxo das informações com o git. Fonte: w3docs.com](../assets/git-flow.png)
 
 ---
 
@@ -52,7 +50,7 @@ Os itens 4 e 5 abaixo são específicos para o GitLab. Porém, em outros provedo
 5. Colar chave, selecionar data de validade (coloque pelo menos 1 ano) > adicionar
 6. Adicionar o gitlab nos "known hosts": Abrir o Terminal > `ssh git@gitlab.com` > `yes`
 
-{{< figure src="/ssh-config.png" caption="Adicionando o GitLab na lista dos _known hosts_" >}}
+![Adicionando o GitLab na lista dos _known hosts_](../assets/ssh-config.png)
 
 Pronto, agora o git de sua máquina local conseguirá autenticar nos seus repositórios que estão no GitLab. Note que se o repositório remoto estiver em outro servidor (ex. GitHub, esse processo tem que ser repetido lá).
 
@@ -94,7 +92,7 @@ Essas informações aparecerão nos _commits_ feitos por você.
 - Branch são "versões" diferentes do seu código, que co-existem no seu  repositório
 - Uso: quando você quer desenvolver um novo recurso no seu código, mas não quer alterar o que já está funcionando: crie uma branch nova e vá fazendo commits nessa nova branch. Quando tudo estiver funcionando como esperado, faça o merge dessa branch com a master
 
-{{< figure src="/git-branches-merge.png" caption="Fluxo das diferentes _branches_. <a href=\"https://www.nobledesktop.com\">Créditos<\a>" >}}
+![Fluxo das diferentes _branches_. Fonte: nobledesktop.com](../assets/git-branches-merge.png)
 
 ### Resolver conflitos
 

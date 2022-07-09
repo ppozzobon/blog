@@ -1,8 +1,6 @@
 ---
 title: "Como produzir um relatório a partir de um Jupyter Notebook"
-date: 2021-04-10T12:00:00-03:00
-draft: false
-tags: ["python", "jupyter", "nbconvert"]
+description: "Como produzir um relatório a partir de um Jupyter Notebook"
 ---
 
 Um problema comum é como compartilhar Jupyter Notebooks com usuários não-técnicos. Das várias soluções disponíveis, a que achei mais simples até o momento é exportar os notebooks como html usando o [nbconvert](https://nbconvert.readthedocs.io/en/latest/index.html). O formato html é interessante pois com ele é possível preservar conteúdo interativo, como os gráficos gerados pelo `plotly`, por exemplo.

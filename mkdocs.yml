@@ -1,0 +1,48 @@
+site_name: Pedro Pozzobon
+site_url: https://pedropozzobon.com/
+docs_dir: ./content
+nav:
+  - Home: index.md
+  - About: about.md
+
+theme:
+  name: material
+  font:
+    text: Noto Sans
+    code: JetBrains Mono
+  palette:
+    scheme: slate
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/eng-pedro-pozzobon/
+      name: Linkedin
+    - icon: fontawesome/brands/github
+      link: https://github.com/ppozzobon
+      name: GitHub
+
+# Extensions
+markdown_extensions:
+  - def_list
+  - footnotes
+  - attr_list
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.magiclink
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji
+  - admonition
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - roamlinks
+  - blogging:
+      dirs:
+        - posts
