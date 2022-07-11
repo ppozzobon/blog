@@ -1,6 +1,6 @@
 ---
-title: Git em 5 minutos
-date: 2021-04-10T14:44:52-03:00
+title: "Git em 5 minutos"
+date: "2021-04-10 14:44:52"
 ---
 
 Alguns dias atrás fiz uma apresentação sobre git para alguns colegas de trabalho. O público era de engenheiros com alguma experiência em programação aplicada em engenharia, porém nunca tiveram contato com softwares de controle de versão.

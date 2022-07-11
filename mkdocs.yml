@@ -46,5 +46,7 @@ plugins:
   - search
   - roamlinks
   - blogging:
+      meta_time_format: "%Y-%m-%d %H:%M:%S"
+      time_format: '%Y-%m-%d %H:%M:%S'
       dirs:
         - posts

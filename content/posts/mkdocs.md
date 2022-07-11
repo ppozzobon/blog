@@ -1,6 +1,7 @@
 ---
 title: "Usando o mkdocs para publicar um blog pessoal"
 description: "Usando o mkdocs para publicar um blog pessoal"
+date: "2022-07-11 12:30:00"
 ---
 
 Troquei a ferramenta que utilizava para a publicação do site: do [Hugo](https://gohugo.io/) para o [mkdocs](https://www.mkdocs.org/). O objetivo da troca foi a simplificar o processo de escrever um conteúdo novo.
