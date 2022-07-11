@@ -9,6 +9,8 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
@@ -23,7 +25,5 @@ jobs:
           personal_token: ${{ secrets.TOKEN  }}
           external_repository: ppozzobon/ppozzobon.github.io
           publish_dir: ./site
-          user_name: github-actions[bot]
-          user_email: github-actions[bot]@users.noreply.github.com
           publish_branch: master
           cname: pedropozzobon.com
